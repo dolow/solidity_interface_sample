@@ -18,10 +18,6 @@ import (
 	sample_caller "interface_example/contracts"
 )
 
-// 1 0xfA20C84A7fDB1AB2335F2707C3009b138D770611
-// 2 0xdFca404C3AD92a8A7989463F8eb4E64700F30fED
-// c 0xbA33aBd12B722f1e381C0D4A41bEc501ee6d8324
-
 func main() {
 	callerAddress := os.Getenv("CONTRACT")
 	implAddress := os.Getenv("IMPL_CONTRACT")
